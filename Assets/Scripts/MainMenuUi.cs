@@ -9,5 +9,4 @@ public class MainMenuUi : MonoBehaviour
 {
     public void QuitButton() => Application.Quit();
     public void PlayButton() => SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    private void Start()
 }
